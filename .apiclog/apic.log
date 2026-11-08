@@ -1,0 +1,1 @@
+{"time":"2026-02-26T17:02:43.9993859+07:00","level":"ERROR","msg":"Error occurred while running command","command":"C:\\Users\\andika.royanda\\.apiconnect\\apic_binary\\apic projects:create --vcs-repo https://github.com/andikaroyanda-cmyk/apic-devops-test.git --insecure-skip-tls-verify","result/error":["Error: unknown flag: --vcs-repo"]}
