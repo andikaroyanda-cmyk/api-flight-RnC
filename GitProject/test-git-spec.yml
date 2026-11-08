@@ -1,6 +1,6 @@
 swagger: '2.0'
 info:
-  title: test-git
+  title: test-git1
   x-ibm-name: test-git
   version: 1.0.0
 x-ibm-configuration:
