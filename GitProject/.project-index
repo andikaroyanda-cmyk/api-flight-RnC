@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "id": "549dc926-da68-41b9-854d-3db0a953ef51:0",
+      "projectId": "wXVquzvr",
+      "filePath": "GitProject/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1794140065957,
+      "schemaVersion": 1
+    },
+    {
+      "id": "582797c8-c2ae-47a0-9b52-0baacd5cacf2:0",
+      "projectId": "wXVquzvr",
+      "filePath": "GitProject/test-git-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1794140080764,
+      "schemaVersion": 1
+    },
+    {
+      "id": "7104be1c-a34d-46e1-9a73-3bef56b6f810:0",
+      "projectId": "wXVquzvr",
+      "filePath": "GitProject/test-git.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1794140085064,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "test-git",
+      "namespace": "GitProject",
+      "version": "1.0.0",
+      "contentHash": "79f535398aa1270a"
+    },
+    {
+      "id": "767ee1aa-628d-4fbd-958b-36e4fd8975a6:0",
+      "projectId": "wXVquzvr",
+      "filePath": "GitProject/properties-test-git.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1794140082969,
+      "schemaVersion": 1,
+      "kind": "Properties",
+      "name": "properties-test-git",
+      "namespace": "GitProject",
+      "version": "1.0.0",
+      "contentHash": "9bd5f820e2bc3083"
+    },
+    {
+      "id": "bc4b7523-09fb-4396-b2b9-90bc48bc68d5:0",
+      "projectId": "wXVquzvr",
+      "filePath": "GitProject/assembly-test-git.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1794140083740,
+      "schemaVersion": 1,
+      "kind": "DataPowerAssembly",
+      "name": "assembly-test-git",
+      "namespace": "GitProject",
+      "version": "1.0.0",
+      "contentHash": "6cf314be182ff86f"
+    },
+    {
+      "id": "d14e1896-f12a-466b-95e9-f8e92160aef7:0",
+      "projectId": "wXVquzvr",
+      "filePath": "GitProject/cors-test-git.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1794140082224,
+      "schemaVersion": 1,
+      "kind": "CORS",
+      "name": "cors-test-git",
+      "namespace": "GitProject",
+      "version": "1.0.0",
+      "contentHash": "68f934cc2dc8f2fd"
+    }
+  ],
+  "edges": [
+    {
+      "id": "0eba4cc9-59c6-49ad-aa43-d4cb9a768f6d",
+      "projectId": "wXVquzvr",
+      "sourceNodeId": "7104be1c-a34d-46e1-9a73-3bef56b6f810:0",
+      "targetNodeId": "582797c8-c2ae-47a0-9b52-0baacd5cacf2:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./test-git-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1794140085068,
+      "lastValidated": 1794140085068
+    },
+    {
+      "id": "2f1f2a83-fa51-4959-bd7d-5e785a4bb4e1",
+      "projectId": "wXVquzvr",
+      "sourceNodeId": "7104be1c-a34d-46e1-9a73-3bef56b6f810:0",
+      "targetNodeId": "d14e1896-f12a-466b-95e9-f8e92160aef7:0",
+      "targetRefType": "same-project",
+      "targetRefString": "GitProject:cors-test-git:1.0.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1794140085069,
+      "lastValidated": 1794140085069
+    },
+    {
+      "id": "379bc236-275c-49ec-9426-5dcc63026a98",
+      "projectId": "wXVquzvr",
+      "sourceNodeId": "7104be1c-a34d-46e1-9a73-3bef56b6f810:0",
+      "targetNodeId": "767ee1aa-628d-4fbd-958b-36e4fd8975a6:0",
+      "targetRefType": "same-project",
+      "targetRefString": "GitProject:properties-test-git:1.0.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1794140085069,
+      "lastValidated": 1794140085069
+    },
+    {
+      "id": "a646b538-675b-424c-a987-d72c63367123",
+      "projectId": "wXVquzvr",
+      "sourceNodeId": "7104be1c-a34d-46e1-9a73-3bef56b6f810:0",
+      "targetNodeId": "bc4b7523-09fb-4396-b2b9-90bc48bc68d5:0",
+      "targetRefType": "same-project",
+      "targetRefString": "GitProject:assembly-test-git:1.0.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1794140085068,
+      "lastValidated": 1794140085068
+    }
+  ]
+}

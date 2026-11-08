@@ -1,0 +1,28 @@
+kind: DataPowerAssembly
+apiVersion: api.ibm.com/v1
+metadata:
+  name: assembly-test-git
+  namespace: GitProject
+  version: 1.0.0
+  tags: []
+spec:
+  x-ibm-configuration:
+    cors:
+      enabled: true
+    gateway: datapower-api-gateway
+    type: rest
+    phase: realized
+    enforced: true
+    testable: true
+    assembly:
+      execute:
+        - invoke:
+            title: invoke
+            version: 2.0.0
+            verb: keep
+            target-url: $(target-url)
+    properties:
+      target-url:
+        value: http://example.com/operation-name
+        description: The URL of the target service
+        encoded: false

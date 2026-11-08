@@ -1,0 +1,17 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: test-git
+  version: 1.0.0
+  namespace: GitProject
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./test-git-spec.yml
+  policy-sequence:
+    - $ref: GitProject:assembly-test-git:1.0.0
+  cors:
+    $ref: GitProject:cors-test-git:1.0.0
+  properties:
+    $ref: GitProject:properties-test-git:1.0.0
