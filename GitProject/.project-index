@@ -52,13 +52,13 @@
       "filePath": "GitProject/assembly-test-git.yml",
       "docIndex": 0,
       "assetType": "resource",
-      "lastIndexed": 1794140083740,
+      "lastIndexed": 1794201435424,
       "schemaVersion": 1,
       "kind": "DataPowerAssembly",
       "name": "assembly-test-git",
       "namespace": "GitProject",
       "version": "1.0.0",
-      "contentHash": "6cf314be182ff86f"
+      "contentHash": "b7c41e0045f568d7"
     },
     {
       "id": "d14e1896-f12a-466b-95e9-f8e92160aef7:0",
@@ -122,7 +122,7 @@
       "targetRefKind": "resource",
       "isValid": true,
       "createdAt": 1794140085068,
-      "lastValidated": 1794140085068
+      "lastValidated": 1794201435442
     }
   ]
 }
